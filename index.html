@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <header class="space-container flex-col">
+      <div class="logo-search-container d-flex">
+        <!-- logo -->
+        <div class="logo-img-container">
+          <img src="./assets/logo.svg" alt="logo" />
+        </div>
+        <div class="account-shopping-container d-flex">
+          <div class="input-container desktop-input-nav hide-tablet d-flex">
+            <div class="header-input-dropdown">
+              <p>All categories</p>
+              <div class="arrow-img-container">
+                <img src="./assets/down-arrow.svg" alt="down-arrow" />
+              </div>
+            </div>
+            <input type="text" placeholder="Search anything" />
+            <div class="search-icon-container">
+              <img src="./assets/search-icon.svg" alt="search-icon" />
+            </div>
+          </div>
+          <!-- help btn -->
+          <button class="help-btn">Help</button>
+          <div class="d-flex">
+            <div class="user-icon">
+              <img src="./assets/user.svg" alt="user-icon" />
+            </div>
+            <p>Account</p>
+          </div>
+          <div class="d-flex">
+            <div class="cart-icon">
+              <img src="./assets/shopping-cart.svg" alt="cart-icon" />
+            </div>
+            <p>Shopping</p>
+          </div>
+        </div>
+      </div>
+      <!-- Movile nav -->
+      <div class="mobile-nav d-flex">
+        <div class="menu-icons-container">
+          <img src="./assets/menu.svg" alt="menu-icon" />
+        </div>
+        <div class="input-container d-flex">
+          <div class="header-input-dropdown">
+            <p>All categories</p>
+            <div class="arrow-img-container">
+              <img src="./assets/down-arrow.svg" alt="down-arrow" />
+            </div>
+          </div>
+          <input type="text" placeholder="Search anything" />
+          <div class="search-icon-container">
+            <img src="./assets/search-icon.svg" alt="search-icon" />
+          </div>
+        </div>
+      </div>
+      <!-- desktop nav -->
+      <div class="desktop-nav">
+        <div>
+          <p>Jewelry & Accessories</p>
+        </div>
+        <div>
+          <p>Jewelry & Accessories</p>
+        </div>
+        <div class="selected">
+          <p>Jewelry & Accessories</p>
+        </div>
+        <div>
+          <p>Jewelry & Accessories</p>
+        </div>
+        <div>
+          <p>Jewelry & Accessories</p>
+        </div>
+        <div>
+          <p>Jewelry & Accessories</p>
+        </div>
+      </div>
+    </header>
+    <main class="space-container flex-col">
+      <div class="imgs-background-cards-container d-flex">
+        <div
+          class="img-background-card-container d-flex"
+          data-categories="Clothing & Shoes"
+        >
+          <p>Clothing & Shoes</p>
+        </div>
+        <div
+          class="img-background-card-container d-flex"
+          data-categories="Home & Living"
+        >
+          <p>Home & Living</p>
+        </div>
+        <div
+          class="img-background-card-container d-flex"
+          data-categories="Art & Collectibles"
+        >
+          <p>Art & Collectibles</p>
+        </div>
+      </div>
+
+      <div class="products-colors-container d-flex">
+        <div class="product-colors-container flex-col">
+          <!-- Fav icon -->
+
+          <div class="fav-icon">
+            <img src="./assets/fav.svg" alt="fav-icon" />
+          </div>
+
+          <!-- product-img -->
+          <div class="center-product-img d-flex">
+            <div class="product-img-container d-flex">
+              <img src="assets/product-colors/chair.png" alt="chair" />
+            </div>
+          </div>
+          <!-- Colros -->
+          <div class="colors-palette flex-col">
+            <p class="colors-text">Colors</p>
+            <div class="d-flex">
+              <div class="choose-color"></div>
+              <div class="choose-color"></div>
+              <div class="choose-color"></div>
+              <div class="choose-color"></div>
+              <div class="choose-color"></div>
+              <div class="choose-color"></div>
+              <div class="choose-color"></div>
+            </div>
+          </div>
+          <!-- title & price -->
+          <div class="title-price-container flex-col">
+            <p class="product-title">Vonna Neva Walnut Sandalye Chair</p>
+            <p class="product-price">195,13 $</p>
+          </div>
+        </div>
+        <div class="product-colors-container flex-col hide-mobile">
+          <!-- Fav icon -->
+
+          <div class="fav-icon">
+            <img src="./assets/fav.svg" alt="fav-icon" />
+          </div>
+
+          <!-- product-img -->
+          <div class="center-product-img d-flex">
+            <div class="product-img-container d-flex">
+              <img src="assets/product-colors/light.png" alt="chair" />
+            </div>
+          </div>
+          <!-- Colros -->
+          <div class="colors-palette flex-col">
+            <p class="colors-text">Colors</p>
+            <div class="d-flex">
+              <div class="choose-color"></div>
+              <div class="choose-color"></div>
+              <div class="choose-color"></div>
+              <div class="choose-color"></div>
+              <div class="choose-color"></div>
+              <div class="choose-color"></div>
+              <div class="choose-color"></div>
+            </div>
+          </div>
+          <!-- title & price -->
+          <div class="title-price-container flex-col">
+            <p class="product-title">Vonna Neva Walnut Sandalye Chair</p>
+            <p class="product-price">195,13 $</p>
+          </div>
+        </div>
+        <div class="product-colors-container flex-col hide-mobile">
+          <!-- Fav icon -->
+
+          <div class="fav-icon">
+            <img src="./assets/fav.svg" alt="fav-icon" />
+          </div>
+
+          <!-- product-img -->
+          <div class="center-product-img d-flex">
+            <div class="product-img-container d-flex">
+              <img src="assets/product-colors/chair2.png" alt="chair" />
+            </div>
+          </div>
+          <!-- Colros -->
+          <div class="colors-palette flex-col">
+            <p class="colors-text">Colors</p>
+            <div class="d-flex">
+              <div class="choose-color"></div>
+              <div class="choose-color"></div>
+              <div class="choose-color"></div>
+              <div class="choose-color"></div>
+              <div class="choose-color"></div>
+              <div class="choose-color"></div>
+              <div class="choose-color"></div>
+            </div>
+          </div>
+          <!-- title & price -->
+          <div class="title-price-container flex-col">
+            <p class="product-title">Vonna Neva Walnut Sandalye Chair</p>
+            <p class="product-price">195,13 $</p>
+          </div>
+        </div>
+        <div class="product-colors-container flex-col hide-tablet">
+          <!-- Fav icon -->
+
+          <div class="fav-icon">
+            <img src="./assets/fav.svg" alt="fav-icon" />
+          </div>
+
+          <!-- product-img -->
+          <div class="center-product-img d-flex">
+            <div class="product-img-container d-flex">
+              <img src="assets/product-colors/chair2.png" alt="chair" />
+            </div>
+          </div>
+          <!-- Colros -->
+          <div class="colors-palette flex-col">
+            <p class="colors-text">Colors</p>
+            <div class="d-flex">
+              <div class="choose-color"></div>
+              <div class="choose-color"></div>
+              <div class="choose-color"></div>
+              <div class="choose-color"></div>
+              <div class="choose-color"></div>
+              <div class="choose-color"></div>
+              <div class="choose-color"></div>
+            </div>
+          </div>
+          <!-- title & price -->
+          <div class="title-price-container flex-col">
+            <p class="product-title">Vonna Neva Walnut Sandalye Chair</p>
+            <p class="product-price">195,13 $</p>
+          </div>
+        </div>
+      </div>
+      <!-- Swiper buttons -->
+      <div class="swiper-buttons d-flex">
+        <img class="circle" src="assets/circle.svg" alt="circle" />
+        <img
+          class="circle"
+          src="assets/selected-circle.svg"
+          alt="selected circle"
+        />
+        <img class="circle" src="assets/circle.svg" alt="circle" />
+      </div>
+
+      <!-- website-info -->
+      <div class="website-info">
+        <!-- card -->
+        <div class="website-info-card flex-col">
+          <div class="img-container">
+            <img src="assets/website-info/first.jpg" alt="img" />
+          </div>
+          <div class="info flex-col">
+            <div class="text">
+              <p>A community doing good</p>
+            </div>
+            <div class="text">
+              <span
+                >Commerce is a global online marketplace, where people.</span
+              >
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="website-info-card flex-col hide-mobile">
+          <div class="img-container">
+            <img src="assets/website-info/2.jpg" alt="img" />
+          </div>
+          <div class="info flex-col">
+            <div class="text">
+              <p>A community doing good</p>
+            </div>
+            <div class="text">
+              <span
+                >Commerce is a global online marketplace, where people.</span
+              >
+            </div>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="website-info-card flex-col hide-mobile">
+          <div class="img-container">
+            <img src="assets/website-info/3.jpg" alt="img" />
+          </div>
+          <div class="info flex-col">
+            <div class="text">
+              <p>A community doing good</p>
+            </div>
+            <div class="text">
+              <span
+                >Commerce is a global online marketplace, where people.</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Swiper buttons -->
+      <div class="swiper-buttons d-flex">
+        <img class="circle" src="assets/circle.svg" alt="circle" />
+        <img
+          class="circle"
+          src="assets/selected-circle.svg"
+          alt="selected circle"
+        />
+        <img class="circle" src="assets/circle.svg" alt="circle" />
+      </div>
+
+      <!-- independent sellers. -->
+      <div class="independent-sellers flex-col">
+        <div class="title-subtitle flex-col">
+          <p class="title">
+            Find things you'll love. Support independent sellers.
+          </p>
+          <p class="subtitle">Only on polka.</p>
+        </div>
+        <!-- cards -->
+        <div class="independent-sellers-cards-container d-flex">
+          <!-- card -->
+          <div class="independent-sellers-card-container flex-col">
+            <div class="frame">
+              <div class="img-container">
+                <img src="./assets/independent-sellers/lion.png" alt="lion" />
+              </div>
+            </div>
+            <p>Craft Kits</p>
+          </div>
+          <!-- card -->
+          <div class="independent-sellers-card-container flex-col">
+            <div class="frame">
+              <div class="img-container">
+                <img src="./assets/independent-sellers/furnt.png" alt="lion" />
+              </div>
+            </div>
+            <p>Craft Kits</p>
+          </div>
+          <!-- card -->
+          <div class="independent-sellers-card-container flex-col hide-mobile">
+            <div class="frame">
+              <div class="img-container">
+                <img src="./assets/independent-sellers/home.png" alt="lion" />
+              </div>
+            </div>
+            <p>Craft Kits</p>
+          </div>
+          <!-- card -->
+          <div class="independent-sellers-card-container flex-col hide-mobile">
+            <div class="frame">
+              <div class="img-container">
+                <img src="./assets/independent-sellers/bed.jpg" alt="lion" />
+              </div>
+            </div>
+            <p>Craft Kits</p>
+          </div>
+          <!-- card -->
+          <div class="independent-sellers-card-container flex-col hide-mobile">
+            <div class="frame">
+              <div class="img-container">
+                <img src="./assets/independent-sellers/axe.jpg" alt="lion" />
+              </div>
+            </div>
+            <p>Craft Kits</p>
+          </div>
+          <!-- card -->
+          <div class="independent-sellers-card-container flex-col hide-mobile">
+            <div class="frame">
+              <div class="img-container">
+                <img src="./assets/independent-sellers/door.png" alt="lion" />
+              </div>
+            </div>
+            <p>Craft Kits</p>
+          </div>
+          <!-- card -->
+          <div class="independent-sellers-card-container flex-col hide-tablet">
+            <div class="frame">
+              <div class="img-container">
+                <img src="./assets/independent-sellers/prod.png" alt="lion" />
+              </div>
+            </div>
+            <p>Craft Kits</p>
+          </div>
+          <!-- card -->
+          <div class="independent-sellers-card-container flex-col hide-tablet">
+            <div class="frame">
+              <div class="img-container">
+                <img src="./assets/independent-sellers/furnt.png" alt="lion" />
+              </div>
+            </div>
+            <p>Craft Kits</p>
+          </div>
+          <!-- card -->
+          <div class="independent-sellers-card-container flex-col hide-tablet">
+            <div class="frame">
+              <div class="img-container">
+                <img src="./assets/independent-sellers/cup.png" alt="lion" />
+              </div>
+            </div>
+            <p>Craft Kits</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Swiper buttons -->
+      <div class="swiper-buttons d-flex">
+        <img class="circle" src="assets/circle.svg" alt="circle" />
+        <img
+          class="circle"
+          src="assets/selected-circle.svg"
+          alt="selected circle"
+        />
+        <img class="circle" src="assets/circle.svg" alt="circle" />
+      </div>
+
+      <!-- unique items -->
+      <div class="unique-items-container flex-col">
+        <p class="title">Discover unique hand-picked items</p>
+        <div class="unique-items-cards-container d-flex">
+          <!-- card -->
+          <div class="unique-items-card-container flex-col">
+            <!-- Fav icon -->
+            <div class="fav-icon">
+              <img src="./assets/fav.svg" alt="fav-icon" />
+            </div>
+            <div class="img-container">
+              <img src="assets/unique-products/bag.png" alt="bag" />
+            </div>
+            <p class="product-title">Distressed Tote Leather Bag Leather Bag</p>
+            <p class="product-price">216,27 $</p>
+          </div>
+          <!-- card -->
+          <div class="unique-items-card-container flex-col">
+            <!-- Fav icon -->
+            <div class="fav-icon">
+              <img src="./assets/fav.svg" alt="fav-icon" />
+            </div>
+            <div class="img-container">
+              <img src="assets/unique-products/slipper.png" alt="bag" />
+            </div>
+            <p class="product-title">Distressed Tote Leather Bag Leather Bag</p>
+            <p class="product-price">216,27 $</p>
+          </div>
+          <div class="unique-items-card-container flex-col hide-mobile">
+            <!-- Fav icon -->
+            <div class="fav-icon">
+              <img src="./assets/fav.svg" alt="fav-icon" />
+            </div>
+            <div class="img-container">
+              <img src="assets/unique-products/blue-bag.png" alt="bag" />
+            </div>
+            <p class="product-title">Distressed Tote Leather Bag Leather Bag</p>
+            <p class="product-price">216,27 $</p>
+          </div>
+          <!-- card -->
+          <div class="unique-items-card-container flex-col hide-mobile">
+            <!-- Fav icon -->
+            <div class="fav-icon">
+              <img src="./assets/fav.svg" alt="fav-icon" />
+            </div>
+            <div class="img-container">
+              <img src="assets/unique-products/white-shoes.png  " alt="bag" />
+            </div>
+            <p class="product-title">Distressed Tote Leather Bag Leather Bag</p>
+            <p class="product-price">216,27 $</p>
+          </div>
+          <div class="unique-items-card-container flex-col hide-tablet">
+            <!-- Fav icon -->
+            <div class="fav-icon">
+              <img src="./assets/fav.svg" alt="fav-icon" />
+            </div>
+            <div class="img-container">
+              <img src="assets/unique-products/brac.png" alt="bag" />
+            </div>
+            <p class="product-title">Distressed Tote Leather Bag Leather Bag</p>
+            <p class="product-price">216,27 $</p>
+          </div>
+          <div class="unique-items-card-container flex-col hide-tablet">
+            <!-- Fav icon -->
+            <div class="fav-icon">
+              <img src="./assets/fav.svg" alt="fav-icon" />
+            </div>
+            <div class="img-container">
+              <img src="assets/unique-products/ring.png  " alt="bag" />
+            </div>
+            <p class="product-title">Distressed Tote Leather Bag Leather Bag</p>
+            <p class="product-price">216,27 $</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Swiper buttons -->
+      <div class="swiper-buttons d-flex">
+        <img class="circle" src="assets/circle.svg" alt="circle" />
+        <img
+          class="circle"
+          src="assets/selected-circle.svg"
+          alt="selected circle"
+        />
+        <img class="circle" src="assets/circle.svg" alt="circle" />
+      </div>
+
+      <!-- random categories and cards -->
+      <div class="random-cards-categories flex-col">
+        <!-- categories -->
+        <div class="categories-container d-flex">
+          <div class="category-item">
+            <div>
+              <p>Modern Farmhouse</p>
+            </div>
+          </div>
+          <div class="category-item selected">
+            <div>
+              <p>Eclectic Decor</p>
+            </div>
+          </div>
+          <div class="category-item">
+            <div>
+              <p>Polka Boho Decor</p>
+            </div>
+          </div>
+          <div class="category-item hide-mobile">
+            <div>
+              <p>Minimalist Style</p>
+            </div>
+          </div>
+          <div class="category-item hide-mobile">
+            <div>
+              <p>Wedding Gift</p>
+            </div>
+          </div>
+          <div class="category-item hide-mobile">
+            <div>
+              <p>Wedding Gifts</p>
+            </div>
+          </div>
+        </div>
+        <!-- cards -->
+        <div class="cards-containers d-flex">
+          <!--img card -->
+          <div class="random-img-card">
+            <img src="assets/random/nike-random.jpg" alt="nike" />
+          </div>
+
+          <div class="random-color-card">
+            <div class="product-colors-container flex-col">
+              <!-- Fav icon -->
+
+              <div class="fav-icon">
+                <img src="./assets/fav.svg" alt="fav-icon" />
+              </div>
+
+              <!-- product-img -->
+              <div class="center-product-img d-flex">
+                <div class="product-img-container d-flex">
+                  <img src="assets/random/light-random.png" alt="chair" />
+                </div>
+              </div>
+              <!-- Colros -->
+              <div class="colors-palette flex-col">
+                <p class="colors-text">Colors</p>
+                <div class="d-flex">
+                  <div class="choose-color"></div>
+                  <div class="choose-color"></div>
+                  <div class="choose-color"></div>
+                  <div class="choose-color"></div>
+                  <div class="choose-color"></div>
+                  <div class="choose-color"></div>
+                  <div class="choose-color"></div>
+                </div>
+              </div>
+              <!-- title & price -->
+              <div class="title-price-container flex-col">
+                <p class="product-title">Vonna Neva Walnut Sandalye Chair</p>
+                <p class="product-price">195,13 $</p>
+              </div>
+            </div>
+          </div>
+          <div class="random-color-card hide-mobile">
+            <div class="product-colors-container flex-col">
+              <!-- Fav icon -->
+
+              <div class="fav-icon">
+                <img src="./assets/fav.svg" alt="fav-icon" />
+              </div>
+
+              <!-- product-img -->
+              <div class="center-product-img d-flex">
+                <div class="product-img-container d-flex">
+                  <img src="assets/random/mobile.png" alt="chair" />
+                </div>
+              </div>
+              <!-- Colros -->
+              <div class="colors-palette flex-col">
+                <p class="colors-text">Colors</p>
+                <div class="d-flex">
+                  <div class="choose-color"></div>
+                  <div class="choose-color"></div>
+                  <div class="choose-color"></div>
+                  <div class="choose-color"></div>
+                  <div class="choose-color"></div>
+                  <div class="choose-color"></div>
+                  <div class="choose-color"></div>
+                </div>
+              </div>
+              <!-- title & price -->
+              <div class="title-price-container flex-col">
+                <p class="product-title">Vonna Neva Walnut Sandalye Chair</p>
+                <p class="product-price">195,13 $</p>
+              </div>
+            </div>
+          </div>
+          <div class="random-color-card hide-tablet">
+            <div class="product-colors-container flex-col">
+              <!-- Fav icon -->
+
+              <div class="fav-icon">
+                <img src="./assets/fav.svg" alt="fav-icon" />
+              </div>
+
+              <!-- product-img -->
+              <div class="center-product-img d-flex">
+                <div class="product-img-container d-flex">
+                  <img src="assets/random/shampo.png" alt="shampo" />
+                </div>
+              </div>
+              <!-- Colros -->
+              <div class="colors-palette flex-col">
+                <p class="colors-text">Colors</p>
+                <div class="d-flex">
+                  <div class="choose-color"></div>
+                  <div class="choose-color"></div>
+                  <div class="choose-color"></div>
+                  <div class="choose-color"></div>
+                  <div class="choose-color"></div>
+                  <div class="choose-color"></div>
+                  <div class="choose-color"></div>
+                </div>
+              </div>
+              <!-- title & price -->
+              <div class="title-price-container flex-col">
+                <p class="product-title">Vonna Neva Walnut Sandalye Chair</p>
+                <p class="product-price">195,13 $</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- unique items -->
+      <div class="unique-items-container flex-col">
+        <div class="unique-items-cards-container d-flex">
+          <!-- card -->
+          <div class="unique-items-card-container flex-col">
+            <!-- Fav icon -->
+            <div class="fav-icon">
+              <img src="./assets/fav.svg" alt="fav-icon" />
+            </div>
+            <div class="img-container">
+              <img src="assets/unique-products/bag.png" alt="bag" />
+            </div>
+            <p class="product-title">Distressed Tote Leather Bag Leather Bag</p>
+            <p class="product-price">216,27 $</p>
+          </div>
+          <!-- card -->
+          <div class="unique-items-card-container flex-col">
+            <!-- Fav icon -->
+            <div class="fav-icon">
+              <img src="./assets/fav.svg" alt="fav-icon" />
+            </div>
+            <div class="img-container">
+              <img src="assets/unique-products/slipper.png" alt="bag" />
+            </div>
+            <p class="product-title">Distressed Tote Leather Bag Leather Bag</p>
+            <p class="product-price">216,27 $</p>
+          </div>
+          <!-- card -->
+          <div class="unique-items-card-container flex-col hide-mobile">
+            <!-- Fav icon -->
+            <div class="fav-icon">
+              <img src="./assets/fav.svg" alt="fav-icon" />
+            </div>
+            <div class="img-container">
+              <img src="assets/unique-products/blue-bag.png" alt="bag" />
+            </div>
+            <p class="product-title">Distressed Tote Leather Bag Leather Bag</p>
+            <p class="product-price">216,27 $</p>
+          </div>
+          <!-- card -->
+          <div class="unique-items-card-container flex-col hide-mobile">
+            <!-- Fav icon -->
+            <div class="fav-icon">
+              <img src="./assets/fav.svg" alt="fav-icon" />
+            </div>
+            <div class="img-container">
+              <img src="assets/unique-products/white-shoes.png" alt="bag" />
+            </div>
+            <p class="product-title">Distressed Tote Leather Bag Leather Bag</p>
+            <p class="product-price">216,27 $</p>
+          </div>
+          <!-- card -->
+          <div class="unique-items-card-container flex-col hide-tablet">
+            <!-- Fav icon -->
+            <div class="fav-icon">
+              <img src="./assets/fav.svg" alt="fav-icon" />
+            </div>
+            <div class="img-container">
+              <img src="assets/unique-products/ring.png" alt="bag" />
+            </div>
+            <p class="product-title">Distressed Tote Leather Bag Leather Bag</p>
+            <p class="product-price">216,27 $</p>
+          </div>
+          <!-- card -->
+          <div class="unique-items-card-container flex-col hide-tablet">
+            <!-- Fav icon -->
+            <div class="fav-icon">
+              <img src="./assets/fav.svg" alt="fav-icon" />
+            </div>
+            <div class="img-container">
+              <img src="assets/unique-products/brac.png" alt="bag" />
+            </div>
+            <p class="product-title">Distressed Tote Leather Bag Leather Bag</p>
+            <p class="product-price">216,27 $</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Swiper buttons -->
+      <div class="swiper-buttons d-flex">
+        <img class="circle" src="assets/circle.svg" alt="circle" />
+        <img
+          class="circle"
+          src="assets/selected-circle.svg"
+          alt="selected circle"
+        />
+        <img class="circle" src="assets/circle.svg" alt="circle" />
+      </div>
+
+      <!-- Subscribe -->
+      <div class="subscribe flex-col">
+        <div class="text flex-col">
+          <p class="title">Yes!</p>
+          <p class="subtitle">
+            Send me exclusive offers, unique gift ideas, and personalized tips
+            for shopping and selling on Commerce.
+          </p>
+        </div>
+        <div class="inputs flex-col">
+          <div class="input-container">
+            <input type="text" placeholder="Drop your email" />
+            <a
+              >Subscribe <img src="assets/right-arrow.svg" alt="right-arrow"
+            /></a>
+          </div>
+          <a
+            >Subscribe <img src="assets/right-arrow.svg" alt="right-arrow"
+          /></a>
+        </div>
+        <div class="hide-tablet first-order">
+          <p>First order only. You’re ready?</p>
+        </div>
+      </div>
+    </main>
+
+    <div class="banner">
+      <p>Commerce, is powered by 100% renewable electricity.</p>
+    </div>
+
+    <footer class="footer-mobile">
+      <div class="footer-items flex-col space-container">
+        <div class="footer-item d-flex">
+          <p>Shop</p>
+          <img src="./assets/down-arrow.svg" alt="down-arrow" />
+        </div>
+        <div class="footer-item selected d-flex">
+          <p>About</p>
+          <img src="./assets/down-arrow.svg" alt="down-arrow" />
+        </div>
+        <div class="selected-dropdown">
+          <div>Polka, Inc.</div>
+          <div>Policies</div>
+          <div>Investors</div>
+          <div>Careers</div>
+          <div>Press</div>
+        </div>
+        <div class="footer-item d-flex">
+          <p>Sell</p>
+          <img src="./assets/down-arrow.svg" alt="down-arrow" />
+        </div>
+        <div class="footer-item d-flex">
+          <p>Help</p>
+          <img src="./assets/down-arrow.svg" alt="down-arrow" />
+        </div>
+        <div class="footer-item-icons d-flex">
+          <div class="icon"><img src="assets/facebook.svg" alt="fb" /></div>
+          <div class="icon"><img src="assets/twitter.svg" alt="fb" /></div>
+          <div class="icon"><img src="assets/linkedin.svg" alt="fb" /></div>
+          <div class="icon"><img src="assets/dribble.svg" alt="fb" /></div>
+        </div>
+      </div>
+      <p class="date">© 2022 Commerce, Inc.</p>
+    </footer>
+
+    <footer class="footer-tablet-desktop space-container">
+      <!-- first column -->
+      <div class="first-col">
+        <div class="logo-icons">
+          <div class="img-container">
+            <img src="assets/logo.svg" alt="logo" />
+          </div>
+          <p class="address">Cricklewood, London NW2 6qg, Uk</p>
+          <div class="icons-container d-flex">
+            <div class="icon"><img src="assets/facebook.svg" alt="fb" /></div>
+            <div class="icon"><img src="assets/twitter.svg" alt="fb" /></div>
+            <div class="icon"><img src="assets/linkedin.svg" alt="fb" /></div>
+            <div class="icon"><img src="assets/dribble.svg" alt="fb" /></div>
+          </div>
+        </div>
+        <p class="address">© 2022 Commerce, Inc.</p>
+      </div>
+      <!-- Second column -->
+      <div class="sec-col">
+        <div class="lists">
+          <div class="list">
+            <p>Shop</p>
+            <ul>
+              <li>Gift card</li>
+              <li>Site map</li>
+              <li>login</li>
+              <li>sign in</li>
+            </ul>
+          </div>
+          <div class="list">
+            <p>Shop</p>
+            <ul>
+              <li>Gift card</li>
+              <li>Site map</li>
+              <li>login</li>
+              <li>sign in</li>
+            </ul>
+          </div>
+          <div class="list">
+            <p>Shop</p>
+            <ul>
+              <li>Gift card</li>
+              <li>Site map</li>
+              <li>login</li>
+              <li>sign in</li>
+            </ul>
+          </div>
+          <div class="list">
+            <p>Shop</p>
+            <ul>
+              <li>Gift card</li>
+              <li>Site map</li>
+              <li>login</li>
+              <li>sign in</li>
+            </ul>
+          </div>
+        </div>
+        <div class="terms-top">
+          <div class="terms">
+            <p>Privacy policy</p>
+            <p class="selected">Terms of use</p>
+            <p>Cookies</p>
+          </div>
+          <div class="scroll-top">
+            <p>Scroll to top</p>
+            <div>
+              <img src="./assets/top-arrow.svg" alt="top-arrow" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+<!-- /* Laptops */ /* @media (min-width: 1024px) { body { background: red; } } */ -->
